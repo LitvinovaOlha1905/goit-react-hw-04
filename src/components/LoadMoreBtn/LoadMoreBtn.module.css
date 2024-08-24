@@ -1,0 +1,19 @@
+.btn_container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px 0;
+}
+
+.btn {
+   padding: 8px;
+   cursor: pointer;
+   border: transparent;
+   border-radius: 5px;
+   color: azure;
+   background: red;
+}
+
+.btn:hover {
+   background: darkred;
+}

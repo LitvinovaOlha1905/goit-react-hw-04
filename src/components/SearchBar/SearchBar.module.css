@@ -1,0 +1,37 @@
+.header{
+   display: flex;
+   background: red;
+   justify-content: center;
+   padding: 10px;
+}
+
+.form {
+   display: flex;
+   align-items: center;
+}
+
+.inputContainer {
+   display: flex;
+   align-items: center;
+   padding: 5px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   background-color: white;
+}
+
+.icon {
+   color: #ccc;
+   margin-right: 5px;
+}
+
+.searchInput {
+   flex-grow: 1;
+   /* Поле ввода занимает всё доступное пространство */
+   min-width: 400px;
+   border: none;
+   outline: none;
+}
+
+.searchBtn{
+   display: none;
+}
